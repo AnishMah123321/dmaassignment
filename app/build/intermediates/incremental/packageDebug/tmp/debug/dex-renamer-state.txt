@@ -1,0 +1,7 @@
+#Wed Jun 17 21:54:39 NPT 2020
+base.0=C\:\\todo final\\c7190034 DMA ASSIGNMENT\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\todo final\\c7190034 DMA ASSIGNMENT\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

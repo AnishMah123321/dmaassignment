@@ -1,0 +1,113 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.todomvvm"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:5:5-24:19
+12        android:allowBackup="true"
+12-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:12:9-13:55
+22            android:name="com.example.todomvvm.addedittask.AddEditTaskActivity"
+22-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:12:19-66
+23            android:label="Add a new Task" />
+23-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:13:13-43
+24        <activity android:name="com.example.todomvvm.tasks.MainActivity" >
+24-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:15:9-21:20
+24-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:15:19-53
+25            <intent-filter>
+25-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:17:17-69
+26-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:19:17-77
+28-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity android:name="com.example.todomvvm.tasks.AboutUsActivity" />
+31-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:22:9-58
+31-->C:\todo final\c7190034 DMA ASSIGNMENT\app\src\main\AndroidManifest.xml:22:19-56
+32        <activity
+32-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d6777383efc5d4e7689d28c52832110a\play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+33            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+33-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d6777383efc5d4e7689d28c52832110a\play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+34            android:excludeFromRecents="true"
+34-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d6777383efc5d4e7689d28c52832110a\play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+35            android:exported="false"
+35-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d6777383efc5d4e7689d28c52832110a\play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+36            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+36-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d6777383efc5d4e7689d28c52832110a\play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+37        <!--
+38            Service handling Google Sign-In user revocation. For apps that do not integrate with
+39            Google Sign-In, this service will never be started.
+40        -->
+41        <service
+41-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d6777383efc5d4e7689d28c52832110a\play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+42            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+42-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d6777383efc5d4e7689d28c52832110a\play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+43            android:exported="true"
+43-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d6777383efc5d4e7689d28c52832110a\play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+44            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+44-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d6777383efc5d4e7689d28c52832110a\play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+45        <service
+45-->[androidx.room:room-runtime:2.2.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\805a1d2e9b3fbae882408f53634ffae8\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+46            android:name="androidx.room.MultiInstanceInvalidationService"
+46-->[androidx.room:room-runtime:2.2.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\805a1d2e9b3fbae882408f53634ffae8\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+47            android:directBootAware="true"
+47-->[androidx.room:room-runtime:2.2.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\805a1d2e9b3fbae882408f53634ffae8\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+48            android:exported="false" />
+48-->[androidx.room:room-runtime:2.2.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\805a1d2e9b3fbae882408f53634ffae8\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+49
+50        <activity
+50-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\593a54ff613c3d9a289e47a60d5f7b29\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+51            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+51-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\593a54ff613c3d9a289e47a60d5f7b29\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+52            android:exported="false"
+52-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\593a54ff613c3d9a289e47a60d5f7b29\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+53            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+53-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\593a54ff613c3d9a289e47a60d5f7b29\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+54
+55        <meta-data
+55-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\4ee897862e6e2d2a6d6b5a9a9989e42b\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+56            android:name="com.google.android.gms.version"
+56-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\4ee897862e6e2d2a6d6b5a9a9989e42b\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+57            android:value="@integer/google_play_services_version" />
+57-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\4ee897862e6e2d2a6d6b5a9a9989e42b\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+58
+59        <provider
+59-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+60            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+61            android:authorities="com.example.todomvvm.lifecycle-process"
+61-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+62            android:exported="false"
+62-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+63            android:multiprocess="true" />
+63-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+64    </application>
+65
+66</manifest>
